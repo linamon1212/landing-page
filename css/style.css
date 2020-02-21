@@ -1,0 +1,33 @@
+@import url("components/button.css");
+
+
+body, html {
+	height:100%;
+}
+
+/* IMAGE DE LA BANNIERE */
+.banniere-image {
+	background-image: url("../images/banniere.png");
+
+		height:80%;
+
+/* POSITION DE LA BANNIERE */
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+}
+
+/* POSITION DE LA BANNIERE */
+.banniere-texte {
+	left: 1025px;
+	position: absolute;
+	top: 30%;
+	transform: translate(-50%, -50%);
+	font-family: Arial;
+	font-size: 30px;
+	font-weight: 500;
+	color:#2c363f
+
+}
+
